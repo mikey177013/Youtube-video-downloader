@@ -16,16 +16,12 @@ A sleek, modern, and user-friendly **YouTube Video Downloader** built with **HTM
 
 ---
 
-## Demo
 
-![Phoenix Logo](https://i.ibb.co/29SLN2z/Picsart-25-10-28-17-55-03-525.png)
-
----
 
 ## Installation
-
+```
 1. Clone the repository:  
-   ```bash
+   bash
    git clone https://github.com/mikey177013/youtube-downloader.git
 
 2. Open index.html in a web browser.
