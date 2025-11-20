@@ -3,7 +3,7 @@ document.getElementById('downloadBtn').addEventListener('click', async () => {
     const status = document.getElementById('status');
 
     if (!urlInput) {
-        status.textContent = "❌ Please enter a YouTube URL or query!";
+        status.textContent = "❌ Please enter a YouTube URL !";
         return;
     }
 
@@ -29,7 +29,7 @@ document.getElementById('downloadBtn').addEventListener('click', async () => {
         a.click();
         document.body.removeChild(a);
 
-        status.textContent = "✅ Download started!";
+        status.textContent = "✅ Download it!";
 
     } catch (err) {
         console.error(err);
