@@ -22,7 +22,7 @@ A sleek, modern, and user-friendly **YouTube Video Downloader** built with **HTM
 ```
 1. Clone the repository:  
    bash
-   git clone https://github.com/mikey177013/youtube-downloader.git
+   git clone https://github.com/mikey177013/Youtube-video-downloader
 
 2. Open index.html in a web browser.
 
