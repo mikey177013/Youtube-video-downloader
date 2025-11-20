@@ -1,0 +1,106 @@
+/* Soft gradient background */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+input:focus {
+  box-shadow: 0 0 10px #4facfe;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: #4facfe;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #00f2fe;
+  transform: scale(1.05);
+}
+
+#status {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+  min-height: 1.5em;
+}
+
+/* Phoenix watermark */
+.phoenix-watermark {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  color: #333;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.phoenix-watermark:hover {
+  opacity: 1;
+}
+
+.phoenix-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  gap: 5px;
+}
+
+.logo-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
