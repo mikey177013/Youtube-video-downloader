@@ -2,7 +2,7 @@
 
 # YouTube Video Downloader
 
-A sleek, modern, and user-friendly **YouTube Video Downloader** built with **HTML, CSS, and JavaScript**. Download videos directly from YouTube using a simple interface with automatic downloads and a subtle **Phoenix watermark**.
+A sleek, modern, and user-friendly **YouTube Video Downloader** built with **HTML, CSS, and JavaScript**. Download videos directly from YouTube.
 
 ---
 
